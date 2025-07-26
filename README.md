@@ -11,18 +11,16 @@ It is my first ML project as a fresher to showcase my skills in data preprocessi
 - Outputs a **Risk Level**: `Low`, `Moderate`, or `High`.
 - Demonstrates **data preprocessing, scaling, and encoding**.
 
-  # Results
-Accuracy: ~99% after SMOTE balancing.
-
-Classification Report:
-
-High: 100% Precision
-
-Low: 99% Precision
-
-Moderate: 100% Precision
+## 🛠 Tech Stack
+- **Language:** Python
+- **Libraries:** pandas, numpy, scikit-learn, imbalanced-learn, matplotlib
+- **Model:** Random Forest Classifier
+- **Development:** Jupyter Notebook
 
 
-📊 Dataset
-Source: The dataset was manually curated for academic/research purposes using information inspired by O*NET job descriptions and automation-related research.
-Contains occupational skills, tasks, and automation probability data
+##  Dataset Source
+The dataset is derived from:
+- **O*NET (Occupational Information Network):** [https://www.onetcenter.org/database.html](https://www.onetcenter.org/database.html)  
+- Includes job titles, required skills, and task ratings.  
+- Processed to include a calculated **AI automation probability** and labeled into Low/Moderate/High risk.
+
